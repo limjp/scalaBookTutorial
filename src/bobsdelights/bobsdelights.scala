@@ -12,3 +12,8 @@ object Fruits {
   val menu = List(Apple, Orange, Pear)
   println(Apple)
 }
+
+def showFruit(fruit: Fruit) = {
+  import Fruits._
+  println(name + "s are " + color)
+}
